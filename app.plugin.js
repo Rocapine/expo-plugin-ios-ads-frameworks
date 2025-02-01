@@ -19,7 +19,6 @@ const addFrameworkToProject = (xcodeProject, framework) => {
 
 const withIOSFrameworks = (config, pluginConfig) => {
   const FRAMEWORKS = pluginConfig?.REQUIRED_FRAMEWORKS || REQUIRED_FRAMEWORKS;
-  console.log("FRAMEWORKS", FRAMEWORKS);
   return withXcodeProject(config, (config) => {
     const xcodeProject = config.modResults;
 
