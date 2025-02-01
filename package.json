@@ -1,0 +1,38 @@
+{
+  "name": "expo-plugin-ios-ads-frameworks",
+  "version": "1.0.0",
+  "description": "An Expo plugin to add iOS ad-related frameworks (AdSupport, AdServices, StoreKit, AppTrackingTransparency).",
+  "main": "app.plugin.js",
+  "author": "Sammy Teillet",
+  "license": "MIT",
+  "keywords": [
+    "expo",
+    "plugin",
+    "ios",
+    "ads",
+    "frameworks",
+    "adjust-sdk",
+    "app-tracking",
+    "mmp",
+    "monetization",
+    "ad-services",
+    "ad-support",
+    "storekit",
+    "app-tracking-transparency"
+  ],
+  "dependencies": {
+    "@expo/config-plugins": "^8.0.0"
+  },
+  "expo": {
+    "plugins": [
+      "expo-plugin-ios-ads-frameworks"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rocapine/expo-plugin-ios-ads-frameworks.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
